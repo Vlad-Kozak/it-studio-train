@@ -30,10 +30,124 @@ img {
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  background-color: #212121;
 }
 
 .container {
   max-width: 1140px;
-  padding: 15px 0;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  display: block;
+  padding: 13px 13px;
+  width: 200px;
+  height: 45px;
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  text-align: center;
+  color: #ffffff;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  position: relative;
+  display: inline-block;
+  padding: 40px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #ffffff;
+}
+
+.nav__link:hover, .nav__link:focus {
+  color: #4985ff;
+}
+
+.active::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.hero-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero {
+  width: 830px;
+  margin: 0 auto;
+  padding: 220px 0 335px;
+}
+
+.hero__subtitle {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__title {
+  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: calc(64 / 48);
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__btn {
+  margin: 0 auto;
+}
+
+.mobile-apps {
+  padding: 110px 0 105px;
+  background-color: #ffffff;
+}
+
+.mobile-apps__title {
+  width: 740px;
+  margin: 0 auto 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  text-align: center;
+  color: #323232;
+}
+
+.mobile-apps__text {
+  margin: 0 auto 70px;
+  width: 730px;
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  text-align: center;
+  color: #999999;
 }
 /*# sourceMappingURL=main.css.map */
