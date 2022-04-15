@@ -1,10 +1,11 @@
-@import 'utils/reset';
-@import 'utils/vars';
+@import "utils/reset";
+@import "utils/vars";
 
-@import 'components/common';
+@import "components/common";
 
-@import 'components/header';
-@import 'components/footer';
+@import "components/header";
+@import "components/footer";
 
-@import 'components/hero';
-@import 'components/mobile-apps';
+@import "components/hero";
+@import "components/mobile-apps";
+@import "components/about-company";
