@@ -1,0 +1,68 @@
+.distribution {
+   background-color: $first-bg-color;
+   padding-top: 85px;
+   padding-bottom: 85px;
+}
+
+.distribution__title {
+   display: block;
+   margin-bottom: 20px;
+
+   font-weight: 600;
+   font-size: 18px;
+   line-height: calc(22 / 18);
+   text-align: center;
+   color: #000000;
+}
+
+.distribution__text {
+   margin-bottom: 30px;
+
+   font-size: 16px;
+   line-height: 25px;
+   text-align: center;
+   color: $first-text-color;
+}
+
+.distribution__form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 35px;
+}
+
+.distribution__input {
+   padding: 15px 33px;
+   border: 1px solid #f2f2f2;
+   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+
+   &::placeholder {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: calc(21 / 13);
+      color: $first-text-color;
+   }
+}
+
+.distribution__btn {
+   padding: 15px 36px 14px 26px;
+   background: #4985ff;
+   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+   border-radius: 0px 30px 30px 0px;
+
+   font-weight: 500;
+   font-size: 16px;
+   line-height: calc(20 / 16);
+   text-align: center;
+   color: $third-text-color;
+}
+
+.distribution__subtext {
+   display: block;
+   font-size: 13px;
+   line-height: calc(21 / 13);
+   text-align: center;
+   color: $first-text-color;
+}
